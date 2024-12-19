@@ -1,0 +1,13 @@
+To test the ReplaceTextToOriginal.java:
+
+cd C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\java\Chapter_12\ExercisesEvenNumbered
+javac ReplaceTextToOriginal.java
+java -cp C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\java Chapter_12.ExercisesEvenNumbered.ReplaceTextToOriginal "C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\Resources\testFile.txt" "Java" "Python"
+
+
+To test any other files:
+
+cd C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\java\Chapter_12\ExercisesEvenNumbered
+javac AnotherTest.java
+java -cp C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\java Chapter_12.ExercisesEvenNumbered.AnotherTest "C:\Users\Admin\OneDrive\Documents\NetBeansProjects\Review28\src\main\Resources\testFile.txt" "SearchString" "ReplaceString"
+
